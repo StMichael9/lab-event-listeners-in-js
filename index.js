@@ -23,7 +23,7 @@ function displayKeyPress(event) {
 // Function to display user input in real-time
 function displayUserInput() {
   const inputField = document.getElementById("textInput");
-  const inputDisplay = document.getElementById("userInputDisplay");
+  const inputDisplay = document.getElementById("textInputDisplay");
   inputDisplay.textContent = inputField.value;
 }
 
